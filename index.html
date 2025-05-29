@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belajar Ceria</title>
+  <style>
+    body { text-align: center; font-family: sans-serif; background: #ffe; }
+    button { font-size: 20px; margin: 10px; padding: 10px 20px; }
+  </style>
+</head>
+<body>
+  <h2>Belajar Ceria!</h2>
+  <button onclick="respon('Merah')">Warna Merah</button>
+  <button onclick="respon('1')">Angka 1</button>
+  <p id="output"></p>
+  <script>
+    function respon(teks) {
+      document.getElementById('output').innerText = 'Kamu memilih: ' + teks;
+    }
+  </script>
+</body>
+</html>
